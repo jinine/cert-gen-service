@@ -1,0 +1,12 @@
+{
+  "name": "cert-gen-service",
+  "version": "1.0.0",
+  "description": "This Node.js package provides a streamlined service for generating SSL/TLS certificates. It simplifies the process of creating self-signed certificates, managing certificate requests, and automating certificate renewals. Ideal for developers looking to secure their applications with minimal effort, this package ensures robust encryption and seamless integration with existing Node.js projects.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tristan Engen",
+  "license": "ISC"
+}
