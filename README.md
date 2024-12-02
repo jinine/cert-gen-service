@@ -33,7 +33,9 @@ Create an object with the data you want to include in the certificate.
 const data = {
     name: 'John Doe',
     course: 'JavaScript Basics',
-    date: 'December 2, 2024'
+    date: 'December 2, 2024',
+    signaturePath: './public/signatures/signature.png',
+    stampPath: './public/stamps/example.png'
 };
 ```
 
@@ -55,6 +57,8 @@ const data = {
     name: 'John Doe',
     course: 'JavaScript Basics',
     date: 'December 2, 2024'
+    signaturePath: './public/signatures/signature.png',
+    stampPath: './public/stamps/example.png'
 };
 
 generateCertificate(data, 'public/certificate.pdf');
@@ -63,11 +67,10 @@ generateCertificate(data, 'public/certificate.pdf');
 ## Project Structure
 
 ```plaintext
-cert-gen-service/
-├── src/
-│   ├── main.js
-│   └── utils/
-│       └── generateCert.js
+pdf-cert/
+├── lib/
+│   └── generateCert.js
+├── main.js
 ├── package.json
 ```
 
