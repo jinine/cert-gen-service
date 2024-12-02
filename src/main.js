@@ -6,4 +6,4 @@ const data = {
   date: 'December 2, 2024'
 };
 
-generateCertificate(data, 'public/certificate.pdf');
+generateCertificate(data, 'public/generated/certificate.pdf');
