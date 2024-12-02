@@ -2,11 +2,11 @@
   "name": "pdf-cert",
   "version": "1.0.0",
   "description": "This Node.js package provides a streamlined service for generating SSL/TLS certificates. It simplifies the process of creating self-signed certificates, managing certificate requests, and automating certificate renewals. Ideal for developers looking to secure their applications with minimal effort, this package ensures robust encryption and seamless integration with existing Node.js projects.",
-  "main": "src/main.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/main.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Tristan Engen",
